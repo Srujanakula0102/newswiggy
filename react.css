@@ -1,0 +1,110 @@
+.head{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+body{
+    
+		/* background-image: linear-gradient(rgba(40, 37, 37, 0.75),rgba(94, 87, 87, 0.75)) */
+
+}
+.logo img{
+    width: 100px;
+    padding-left: 20px;
+   
+}
+.Navitem {
+padding: 5px;
+}
+.Navitem > ul {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+   justify-content: center;
+   border: 1px solid black;
+    
+}
+.Navitem > ul > li{
+   padding: 10px;
+    margin: 10px;
+    list-style: none;
+    font-size: 40px;
+}
+
+ .Navitem>ul>li:hover{
+    cursor: pointer;
+        background-color: rgb(203, 212, 212);
+    }
+    
+
+
+ h1{
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid gray; */
+     
+   
+}
+.search{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    size: 100px;
+    /* width: 200px; */
+}
+.Resturantcart{
+    display: flex;
+    margin-left: 15px;
+    /* justify-content:flex-start; */
+}
+
+    
+.cart1{
+    border: 2px solid black;
+    padding-bottom: 2px;
+    margin: 10px;
+    margin-bottom: 5px;
+    width: 260px;
+    
+}
+.cart1 h1,h3,h4{
+    text-align: center;
+    color: rgb(30, 31, 20);
+    margin: 0px;
+}
+.cart1:hover{
+      cursor: pointer;
+    background-color:  rgb(252, 239, 239);
+		/* background-image: linear-gradient(rgba(200, 187, 187, 0.75),rgba(215, 202, 202, 0.75))	 */
+}
+.cart1 h5{
+    text-align: center;
+    color: rgb(232, 144, 20);
+    font-style:italic;
+    margin: 0px;
+}
+
+.cart1 img{
+    width: 100%;
+    height: 200px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contaninershimmer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmercard{
+margin: 20px;
+width: 13%;
+height: 450px;
+background-color: rgb(176, 182, 186);
+}
+.login{
+    margin: 10px;
+}
+
+
+
+
